@@ -1,0 +1,102 @@
+
+.header{
+    width: 100%;
+    height: 70px;
+    background: #2D82BE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header_main{
+        width: 1300px;
+        height: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        &_box{
+            width: 87%;
+            display: flex;
+        align-items: center; 
+        justify-content: space-between;
+            &_category{
+                padding: 0 0 0 0;
+                background: #1f5c88; 
+                width :138px;
+                height :40px; 
+                border-radius: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .first{
+                    margin-top: 6px;
+                    &_div{
+                        margin-bottom: 3px;
+                        position: relative;
+                        width: 15px;
+                        height: 1px;
+                        border-radius: 2px;
+                        background: white;
+                    }
+                  
+                }             
+                .text{
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 15px;
+                }
+            }
+            &_search{
+                width :675px;
+                height:40px;
+                background: white;
+                border-radius: 100px;
+                display: flex;
+                align-items: center;
+                .icon{
+                    font-size: 25px;
+                    margin: 0 15px 0 15px;
+                }
+                input{
+                    width: 100%;
+                    height: 100%;
+                    outline: none;
+                    border: none;
+                    background: none;
+                    font-size: 20px;
+                    color: black;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+            &_reguest{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 240px;
+                .div{
+                    text-align: right;
+                   p{
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 10px;
+                   } 
+                   h1{
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 15px;
+                   }
+                }
+                .iconBox{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    background: white;
+                }
+                .line{
+                    width: 2px;
+                    height: 30px;
+                    background: #2c2c2c;
+                }
+            }
+        }
+    }
+}
